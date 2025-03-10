@@ -1,0 +1,164 @@
+:root {
+  --active-color: #f7084c;
+  --text-color: #fff;
+  --button-color: linear-gradient(to right, #ff5637 -18%, #f7084c 100%);
+  --background-color: #030d19;
+  --primary-font-family: "Hind", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
+  --big-border-radius: 20px;
+  --little-border-radius: 10px;
+  --box-shadow: 0px 0px 30px 10px #f7084c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+div.container {
+  max-width: 1684px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.main-section {
+  background-color: var(--background-color);
+  background-image: url(../images/guy-boxing.png), url(../images/Ellipse\ 5.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, right bottom;
+  color: var(--text-color);
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+}
+
+.main-section__container {
+  max-width: 1005px;
+}
+
+.main-section__title {
+  font-family: var(--primary-font-family);
+  font-size: 80px;
+  padding-top: 175px;
+}
+
+.main-section__copy {
+  margin-top: 31px;
+  margin-bottom: 57px;
+}
+
+.main-section__copy:last-child {
+  margin-bottom: 191px;
+}
+
+.contact__container {
+  max-width: 1408px;
+  display: flex;
+  justify-content: space-between;
+  gap: 221px;
+  padding-bottom: 95px;
+}
+
+.contact__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 19px;
+}
+
+.services-section {
+  background-color: var(--background-color);
+}
+
+.article__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 112px;
+  padding-top: 102px;
+  padding-bottom: 112px;
+}
+
+.goals-section {
+  background-color: var(--background-color);
+  background-image: url(../images/woman-holding-weights-near-barbells.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.section__title {
+  max-width: 1222px;
+  font-family: var(--primary-font-family);
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.goals__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  margin-top: 109px;
+  padding-bottom: 132px;
+}
+
+.card__container {
+  display: flex;
+  gap: 71px;
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+.card__container .card {
+  width: 744px;
+  border-radius: var(--big-border-radius);
+  padding: 38px 46px;
+}
+
+.card__number {
+  padding-top: 64px;
+}
+
+.slider-section {
+  background-color: var(--background-color);
+}
+
+.slider__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 71px;
+}
+
+.accord-section {
+  background-color: var(--background-color);
+}
+
+.accord__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

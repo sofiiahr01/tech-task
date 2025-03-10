@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--background-color);
+}
+
 li {
   list-style-type: none;
 }
@@ -33,6 +37,10 @@ div.container {
   padding-left: 0;
 }
 
+.container {
+  border-bottom: transparent !important;
+}
+
 .main-section {
   background-color: var(--background-color);
   background-image: url(../images/guy-boxing.png), url(../images/Ellipse\ 5.png);
@@ -47,10 +55,14 @@ div.container {
   max-width: 1005px;
 }
 
+.main-section .container {
+  border-bottom: none;
+}
+
 .main-section__title {
   font-family: var(--primary-font-family);
   font-size: 80px;
-  padding-top: 175px;
+  padding-top: 165px;
 }
 
 .main-section__copy {
@@ -67,7 +79,7 @@ div.container {
   display: flex;
   justify-content: space-between;
   gap: 221px;
-  padding-bottom: 95px;
+  padding-bottom: 85px;
 }
 
 .contact__item {
@@ -86,8 +98,8 @@ div.container {
   justify-content: space-around;
   align-items: center;
   gap: 112px;
-  padding-top: 102px;
-  padding-bottom: 112px;
+  padding-top: 92px;
+  padding-bottom: 102px;
 }
 
 .goals-section {
@@ -119,7 +131,7 @@ div.container {
   align-items: center;
   gap: 70px;
   margin-top: 109px;
-  padding-bottom: 132px;
+  padding-bottom: 122px;
 }
 
 .card__container {
@@ -150,7 +162,7 @@ div.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 71px;
+  padding-bottom: 61px;
 }
 
 .accord-section {
@@ -161,4 +173,45 @@ div.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.target-section {
+  background-color: var(--background-color);
+}
+
+.target__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+  padding-top: 217px;
+  padding-bottom: 29.5px;
+}
+
+.target__container .article__container {
+  gap: 101px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-section {
+  background-color: var(--background-color);
+  background-image: url(../images/young-fitness-man-studio.png);
+  background-repeat: no-repeat;
+  background-position: right 120px bottom;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 81px;
+  padding-top: 134.5px;
+  padding-bottom: 192px;
+}
+
+.button__container {
+  display: flex;
+  align-items: center;
+  gap: 124px;
 }

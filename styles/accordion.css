@@ -4,16 +4,24 @@
   align-items: center;
   gap: 43px;
   margin-top: 68px;
+  border-radius: var(--little-border-radius);
+  --bs-accordion-border-color: transparent !important;
+  --bs-accordion-border-radius: var(--little-border-radius) !important;
 }
 
 .accordion-item {
-  width: 1406px;
-  border-radius: var(--big-border-radius);
+  width: 1720px;
+  border-radius: var(--little-border-radius);
+}
+
+.accordion-body,
+.accordion-header :not(.collapsed) {
+  padding-left: 24px;
 }
 
 button.accordion-button.collapsed {
-  width: 1406px;
-  border-radius: var(--big-border-radius);
+  width: 1720px;
+  border-radius: var(--little-border-radius);
   box-shadow: var(--box-shadow);
   background-color: var(--background-color);
   border: transparent;
@@ -22,5 +30,57 @@ button.accordion-button.collapsed {
   font-size: 32px;
   font-weight: 700;
   line-height: 1.25;
-  padding: 40px 24px;
+  padding: 20px 24px;
+}
+
+.accordion-button.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.accordion-item:not(.collapsed) {
+  background-image: linear-gradient(to bottom, #f7084c, #ff5637);
+  border: none;
+}
+
+.accordion-item:not(.collapsed) .accordion-button {
+  font-family: var(--primary-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--text-color);
+}
+
+.accordion-item:not(.collapsed) .accordion-body {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+button.accordion-button:not(.collapsed)::after {
+  width: 80px;
+  height: 80px;
+  padding: 2px 16px;
+  border-radius: 20px;
+  background-image: url(../images/arrow.png);
+  background-size: 20px 12px;
+  background-position: center;
+  background-color: var(--background-color);
+}
+
+button.accordion-button.collapsed::after {
+  width: 80px;
+  height: 80px;
+  padding: 2px 16px;
+  border-radius: 20px;
+  border: solid 4px #7c0a32;
+  background-image: url(../images/arrow.png);
+  background-size: 20px 12px;
+  background-position: center;
+}
+
+.accordion-body {
+  max-width: 1479px;
+  padding-top: 0 !important;
+  padding-bottom: 24.5px !important;
+  padding-right: 24px !important;
 }

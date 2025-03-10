@@ -49,3 +49,8 @@ article.card {
 .big__card {
   padding-bottom: 30px;
 }
+
+.target__container > .article__container .card {
+  padding: 73px 33px 50px 32px;
+  border-radius: var(--big-border-radius);
+}

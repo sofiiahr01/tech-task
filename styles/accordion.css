@@ -61,7 +61,7 @@ button.accordion-button:not(.collapsed)::after {
   height: 80px;
   padding: 2px 16px;
   border-radius: 20px;
-  background-image: url(../images/arrow.png);
+  background-image: url(../images/icons/arrow.png);
   background-size: 20px 12px;
   background-position: center;
   background-color: var(--background-color);

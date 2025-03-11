@@ -1,4 +1,9 @@
 @media (max-width: 1024px) {
+  .adaptive-card__container {
+    display: flex;
+    flex-direction: column;
+  }
+
   div.container {
     max-width: 846px;
   }
@@ -32,9 +37,63 @@
   .goals-section {
     display: none;
   }
+
+  .target__container {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    padding-bottom: 65px;
+  }
+
+  .target__container .article__container {
+    display: flex;
+    flex-direction: column;
+    gap: 113px;
+  }
 }
 
 @media (min-width: 430px) {
+  .footer-section {
+    background-position: right 90% bottom 80%;
+    background-size: 1375px;
+  }
+
+  .footer__container {
+    padding-top: 24px;
+    padding-bottom: 129px;
+    align-items: flex-start;
+    gap: 51px;
+  }
+
+  .footer__container .section__title {
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .footer__container .button {
+    width: 331px;
+  }
+
+  .target__container .section__title {
+    width: 638px;
+  }
+
+  .accord-section {
+    background-image: url(../images/shirtless-athletic-male.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+
+  .accord-section .adaptive__container {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+  }
+
+  .accord-section .adaptive__container .card .card__header {
+    margin-bottom: 103px;
+  }
+
   .adaptive__container .card .card__header .card__image {
     display: none;
   }
@@ -52,8 +111,28 @@
     justify-content: center;
   }
 
+  .adaptive__container .adaptive__title {
+    width: 844px;
+    font-size: 48px;
+    font-weight: 500;
+  }
+
   .adaptive-card__image {
     display: block;
+  }
+
+  .adaptive__title {
+    display: none;
+  }
+
+  .accord__container {
+    display: none;
+  }
+
+  .accord__container .section__title {
+    font-size: 48px;
+    font-weight: 500;
+    width: 881px;
   }
 
   .services-section {
@@ -108,7 +187,7 @@
   }
 
   .contact__descr {
-    width: 196px;
+    width: 191px;
     line-height: 1.2;
   }
 
@@ -120,6 +199,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 106px;
+  }
+
+  .adaptive-card__container {
     gap: 189px;
   }
 
@@ -150,9 +233,21 @@
   .adaptive__card {
     display: flex;
   }
+
+  .adaptive__container .card .card__header {
+    margin-bottom: 80px;
+  }
 }
 
 @media (max-width: 430px) {
+  .adaptive-card__container {
+    gap: 42px;
+  }
+
+  .accord-section .adaptive__container {
+    display: none;
+  }
+
   .adaptive-card__image {
     display: none;
   }
@@ -194,11 +289,13 @@
   }
 
   .main-section__title {
+    width: 308px;
     font-size: 32px;
     padding-top: 106px;
   }
 
   .main-section__copy {
+    width: 308px;
     font-size: 15px;
     margin-top: 0;
     margin-bottom: 0;
@@ -210,6 +307,7 @@
 
   .main-section__copy:last-child {
     margin-bottom: 29px;
+    text-align: center;
   }
 
   .button__wrapper {

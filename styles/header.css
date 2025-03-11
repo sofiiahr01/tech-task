@@ -1,3 +1,7 @@
+.navbar-toggler {
+  display: none;
+}
+
 header {
   background-color: var(--background-color);
 }
@@ -11,10 +15,7 @@ header {
 }
 
 .logo {
-  font-family: var(--secondary-font-family);
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 1.2;
+  width: 146px;
 }
 
 .main-nav__list {

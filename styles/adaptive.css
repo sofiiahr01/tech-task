@@ -1,4 +1,166 @@
+@media (max-width: 1024px) {
+  div.container {
+    max-width: 846px;
+  }
+
+  .header__container {
+    padding-top: 32px;
+  }
+
+  .main-nav__list {
+    gap: 0;
+  }
+
+  .main-nav__item .button {
+    display: none;
+  }
+
+  .main-section__title {
+    width: 790px;
+    line-height: 1.2;
+  }
+
+  .main-section__copy {
+    width: 627px;
+  }
+
+  .main-section {
+    background-position: bottom 160px left 202px;
+    background-size: 923px;
+  }
+
+  .goals-section {
+    display: none;
+  }
+}
+
+@media (min-width: 430px) {
+  .adaptive__container .card .card__header .card__image {
+    display: none;
+  }
+
+  .adaptive__container .card .card__header {
+    width: 130px;
+    height: 120px;
+    justify-content: center;
+    background-image: url(../images/Ellipse\ 5.png),
+      url(../images/Ellipse\ 5.png), url(../images/Ellipse\ 5.png);
+    background-size: 170px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .adaptive-card__image {
+    display: block;
+  }
+
+  .services-section {
+    background-image: url(../images/woman-holding-weights-near-barbells.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .collapse.navbar-collapse {
+    display: flex !important;
+  }
+
+  .main-nav__list {
+    max-width: 985px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    font-family: var(--secondary-font-family);
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .main-section__title {
+    padding-top: 170px;
+    font-size: 64px;
+  }
+
+  .main-section__copy {
+    margin-top: 0;
+    margin-bottom: 151px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .main-section__copy:last-child {
+    margin-bottom: 167px;
+    margin-top: 31px;
+  }
+
+  .contact__container {
+    gap: 56px;
+  }
+
+  .contact__item {
+    gap: 13px;
+  }
+
+  .contact__descr {
+    width: 196px;
+    line-height: 1.2;
+  }
+
+  .article__container .adaptive__title {
+    display: block;
+  }
+
+  .services-section .article__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 189px;
+  }
+
+  .adaptive__container .card {
+    width: 741px;
+    flex-direction: row;
+    box-shadow: none;
+    gap: 71px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .adaptive__container .card .card__body {
+    width: 555px;
+    gap: 11px;
+  }
+
+  .adaptive__container .card .card__body .card__copy {
+    text-align: left;
+    color: var(--blur-color);
+  }
+
+  .adaptive__container .card .card__body .card__title {
+    text-align: left;
+  }
+
+  .adaptive__card {
+    display: flex;
+  }
+}
+
 @media (max-width: 430px) {
+  .adaptive-card__image {
+    display: none;
+  }
+
+  .main-nav__item .button {
+    display: block;
+  }
+
   div.container {
     max-width: 308px;
   }
@@ -91,6 +253,7 @@
   }
 
   .goals-section {
+    display: block;
     background-image: none;
   }
 

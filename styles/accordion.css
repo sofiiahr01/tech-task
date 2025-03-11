@@ -73,7 +73,7 @@ button.accordion-button.collapsed::after {
   padding: 2px 16px;
   border-radius: 20px;
   border: solid 4px #7c0a32;
-  background-image: url(../images/arrow.png);
+  background-image: url(../images/icons/arrow.png);
   background-size: 20px 12px;
   background-position: center;
 }

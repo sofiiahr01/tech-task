@@ -98,6 +98,18 @@ div.container {
   padding-bottom: 102px;
 }
 
+.article__container .adaptive__title {
+  display: none;
+}
+
+.adaptive__card {
+  display: none;
+}
+
+.adaptive-card__image {
+  display: none;
+}
+
 .goals-section {
   background-color: var(--background-color);
   background-image: url(../images/woman-holding-weights-near-barbells.png);

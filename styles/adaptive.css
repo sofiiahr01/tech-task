@@ -639,6 +639,7 @@
 
   .accord__container {
     display: flex;
+    margin-top: 80px;
   }
 
   .accord-section {
@@ -647,5 +648,10 @@
 
   .contact__descr:last-child {
     width: 323px;
+  }
+
+  .slider__container .adaptive__title {
+    display: block !important;
+    margin-bottom: 80px;
   }
 }

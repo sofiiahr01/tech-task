@@ -226,3 +226,15 @@ div.container {
   align-items: center;
   gap: 124px;
 }
+
+.slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.slider__container {
+  position: relative;
+}
